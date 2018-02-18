@@ -1,0 +1,9 @@
+Install dependencies in debian
+
+sudo apt-get install python-pip
+pip install apache_log_parser 
+
+Running the main.py file, the parser starts to compare the lines of the security_log (apache log) against some rules (more rules need to be created)
+if any of them matches it records the line into the file malicious.log.
+lastIndex file needs to be in 0 the first time.
+addLines.py is used to deploy the script (Not Apache with real attacks at home)

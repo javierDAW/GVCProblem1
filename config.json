@@ -1,0 +1,52 @@
+{
+	"rules": {
+		"crawlers-user-agents": {
+			"file": "crawlers-user-agents.data",
+			"field": "request_header_user_agent"
+		},
+		"lfi-os-files": {
+			"file": "lfi-os-files.data",
+			"field": "request_url"
+		},
+		"php-function-names-933150": {
+			"file": "php-function-names-933150.data",
+			"field": "request_url"
+		},
+		"php-function-names-933151": {
+			"file": "php-function-names-933151.data",
+			"field": "request_url"
+		},
+		"php-variables": {
+			"file": "php-variables.data",
+			"field": "request_url"
+		},
+		"restricted-files": {
+			"file": "restricted-files.data",
+			"field": "request_url"
+		},
+		"scanners-headers": {
+			"file": "scanners-headers.data",
+			"field": "request_header_user_agent"
+		},
+		"scanners-urls": {
+			"file": "scanners-urls.data",
+			"field": "request_url"
+		},
+		"scanners-user-agents": {
+			"file": "scanners-user-agents.data",
+			"field": "request_header_user_agent"
+		},
+		"scripting-user-agents": {
+			"file": "scripting-user-agents.data",
+			"field": "request_header_user_agent"
+		},
+		"unix-shell": {
+			"file": "unix-shell.data",
+			"field": "request_url"
+		},
+		"windows-powershell-commands": {
+			"file": "windows-powershell-commands.data",
+			"field": "request_url"
+		}		
+	}
+}
